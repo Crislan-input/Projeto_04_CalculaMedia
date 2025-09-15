@@ -1,0 +1,11 @@
+nota1 = float(input("Qual a sua primeira nota ?"))
+nota2 = float(input("Qual a sua segunda nota ?"))
+nota3 = float(input("Qual a sua terceira nota ?"))
+
+media = nota1 + nota2 + nota3 /3
+
+if media < 4.9 :
+    print(f"A sua média é {media}, você está reprovado, boa sorte na próxima 🤓")
+
+elif media >= 5:
+     print(f"Você passou 🥳, sua média foi {media}")
